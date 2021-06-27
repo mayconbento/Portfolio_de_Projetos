@@ -26,7 +26,7 @@ Veja os tutoriais publicados:
 * **Introdução ao uso do Algoritmo Prophet ....:** https://bit.ly/2L2cM
 * **Calculando custo principais de operação na área de transporte....:** https://bit.ly/2Li5p
 * **Migrando análise de dados do Excel para o Rstudio ...:** https://bit.ly/2Ubr5
-* **Fazendo análise de dados no Rstudio com saída formatada no Excel.:** https://bit.ly/31KWS
+* **Fazendo análise de dados no Rstudio com saída formatada no Excel.:** https://nbviewer.jupyter.org/github/bentom842/Projetos-com-feedback-/blob/master/projeto_03_Prevendo%20Satisfa%C3%A7%C3%A3o%20de%20Clientes%20santander.ipynb
 
 
 ---
