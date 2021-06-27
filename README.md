@@ -15,7 +15,7 @@ Experiência na criação e monitoramento de indicadores de desempenho (KPI´S).
 
 Experiência na construção e manutenção de orçamento (budget).
 
-**Background in:** R, Python, Minitab, Machine Learning Dataviz.
+**Background in:** R, Python, Minitab, Excel, Power Query, Power Bi, Machine Learning, Dataviz.
 
 **Links:**
 * [LinkedIn](https://www.linkedin.com/in/maycon-bento-04116b180/)
@@ -23,13 +23,13 @@ Experiência na construção e manutenção de orçamento (budget).
 ## Projetos:
 Veja os tutoriais publicados:
 
-* **Como usar o Histograma para Data Science:** https://bit.ly/2L2cM
-* **Como Implementar Regressão Linear com Python:** https://bit.ly/2Li5p
-* **Data Science: Investigando o naufrágio do Titanic:** https://bit.ly/2Ubr5
-* **Como Tratar Dados Ausentes com Pandas:** https://bit.ly/31KWS
-* **XGBoost: aprenda este algoritmo de Machine Learning em Python:** https://bit.ly/2UbRh
-* **Como criar uma Wordcloud em Python:** https://bit.ly/2Oxsp
-* **Como lidar com dados desbalanceados:** https://bit.ly/2ZlaN
+* **Como usar ....:** https://bit.ly/2L2cM
+* **Como Implementar Regressão Linear....:** https://bit.ly/2Li5p
+* **Data Science: Investigando ...:** https://bit.ly/2Ubr5
+* **Como Tratar Dados Ausentes...:** https://bit.ly/31KWS
+* **XGBoost: aprenda este algoritmo ...:** https://bit.ly/2UbRh
+* **Como criar uma Wordcloud:** https://bit.ly/2Oxsp
+* **Como lidar......:** https://bit.ly/2ZlaN
 
 ---
 
