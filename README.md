@@ -23,13 +23,11 @@ Experiência na construção e manutenção de orçamento (budget).
 ## Projetos:
 Veja os tutoriais publicados:
 
-* **Como usar ....:** https://bit.ly/2L2cM
-* **Como Implementar Regressão Linear....:** https://bit.ly/2Li5p
-* **Data Science: Investigando ...:** https://bit.ly/2Ubr5
-* **Como Tratar Dados Ausentes...:** https://bit.ly/31KWS
-* **XGBoost: aprenda este algoritmo ...:** https://bit.ly/2UbRh
-* **Como criar uma Wordcloud:** https://bit.ly/2Oxsp
-* **Como lidar......:** https://bit.ly/2ZlaN
+* **Introdução ao uso do Algoritmo Prophet ....:** https://bit.ly/2L2cM
+* **Calculando custo principais de operação na área de transporte....:** https://bit.ly/2Li5p
+* **Migrando análise de dados do Excel para o Rstudio ...:** https://bit.ly/2Ubr5
+* **Fazendo análise de dados no Rstudio com saída formatada no Excel.:** https://bit.ly/31KWS
+
 
 ---
 
