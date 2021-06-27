@@ -26,7 +26,7 @@ Veja os tutoriais publicados:
 * **Introdução ao uso do Algoritmo Prophet ....:** https://bit.ly/2L2cM
 * **Calculando custo principais de operação na área de transporte....:** https://bit.ly/2Li5p
 * **Migrando análise de dados do Excel para o Rstudio ...:** https://bit.ly/2Ubr5
-* **Prevendo se um Cliente Santanderirá cancelar o seviço.:** https://bit.ly/3jlE4jk
+* **Prever se um cliente irá cancelar o serviço no Banco Santander.:** https://bit.ly/3jlE4jk
 
 ---
 
