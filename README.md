@@ -26,7 +26,7 @@ Veja os tutoriais publicados:
 * **Introdução ao uso do Algoritmo Prophet **:** https://bit.ly/3AiaYH9
 * **Previsão de kilometragem com regressão linear **:** https://bit.ly/2YWWdvt
 * **Calculando os custos principais de operação na área de transporte **:** https://bit.ly/2Li5p
-* **Migrando análise de dados do Excel para o Rstudio **:** arquivo 1 https://bit.ly/3tOYKmQ
+* **Migrando análise de dados do Excel para o Rstudio **:** arquivo 1 https://bit.ly/3tOYKmQ arquivo 2 https://bit.ly/2XEILfr
 * **Previsão de Cancelamento de serviço no Banco Santander **:** https://bit.ly/3lqxZ4g
 * **Carga, análise e relatórios do R para Excel **:** https://bit.ly/3lqx
 ---
