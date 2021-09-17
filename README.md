@@ -28,6 +28,5 @@ Veja os tutoriais publicados:
 * **Calculando os custos principais de operação na área de transporte **:** https://bit.ly/2Li5p
 * **Migrando análise de dados do Excel para o Rstudio **:** arquivo 1 https://bit.ly/3tOYKmQ arquivo 2 https://bit.ly/2XEILfr
 * **Previsão de Cancelamento de serviço no Banco Santander **:** https://bit.ly/3lqxZ4g
-* **Carga, análise e relatórios do R para Excel **:** https://bit.ly/3lqx
----
+* **Carga, análise e relatórios do R para Excel "createWorkbook()"**:** https://bit.ly/3nHZfy4
 
