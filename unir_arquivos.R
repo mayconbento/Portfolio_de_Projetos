@@ -77,8 +77,6 @@ consolidado_dia<- consolidado_dia[  consolidado_dia$CL=='01'|
 consolidado_dia<- aggregate(`R$ TOTAL` ~ DIA+ DRIVE+CL, data = consolidado_dia, 
                              FUN = sum, na.rm = TRUE)  
 
-#openxlsx::write.xlsx(consolidado_dia,'Z:/2020/Indicadores 2020/Indicador_PBI/consolidado_dia.xlsx')
-
 str(consolidado)
 
 consolidado$DATA<- as.Date(consolidado$DATA , origin= '1899-12-30')
