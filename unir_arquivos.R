@@ -218,6 +218,7 @@ DRO_consolidado<- DRO_consolidado[order(DRO_consolidado$CL),]
 DRO_consolidado<- DRO_consolidado[DRO_consolidado$CL !='91',]
 
 #*****************************Setting Styles**********************************************
+#**********************inserindo informações no excel e formatando worksheets*************
 p <- createWorkbook()
 
 # Add some sheets to the workbook
@@ -284,5 +285,3 @@ openXL("DRO_consolidado.xlsx")
 dupli<- consolidado[duplicated(consolidado),]
 dim(unique(consolidado))
 dim(distinct(consolidado))
-
-saveWorkbook(p, "Z:/2021/historico mensal MNT/DRO_consolidado-fechado.xlsx", overwrite = TRUE)
