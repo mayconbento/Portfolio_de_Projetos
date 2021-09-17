@@ -24,7 +24,7 @@ Experiência na construção e manutenção de orçamento (budget).
 Veja os tutoriais publicados:
 
 * **Introdução ao uso do Algoritmo Prophet com Rstudio **:** https://bit.ly/3AiaYH9
-* **Introdução ao uso do Algoritmo Prophet com  Python **:** https://bit.ly/3AiaYH9
+* **Introdução ao uso do Algoritmo Prophet com  Python **:** https://bit.ly/3Cpc0BE
 * **Previsão de kilometragem com regressão linear **:** https://bit.ly/2YWWdvt
 * **Calculando os custos principais de operação na área de transporte **:** https://bit.ly/2Li5p
 * **Migrando análise de dados do Excel para o Rstudio **:** arquivo 1 https://bit.ly/3tOYKmQ arquivo 2 https://bit.ly/2XEILfr
