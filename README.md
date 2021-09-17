@@ -23,7 +23,7 @@ Experiência na construção e manutenção de orçamento (budget).
 ## Projetos:
 Veja os tutoriais publicados:
 
-* **Introdução ao uso do Algoritmo Prophet ....:** https://github.com/bentom842/Portfolio_de_Projetos/
+* **Introdução ao uso do Algoritmo Prophet ....:** https://github.com/bentom842/Portfolio_de_Projetos/blob/main/Times%20Series%20with%20Prophet
 * **Calculando custo principais de operação na área de transporte....:** https://bit.ly/2Li5p
 * **Migrando análise de dados do Excel para o Rstudio ...:** https://bit.ly/2Ubr5
 * **Previsão de Cancelamento de serviço no Banco Santander.:** https://github.com/bentom842/Portfolio_de_Projetos/blob/main/framework%20kaggle-santander-DSA.ipynb
