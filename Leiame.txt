@@ -1,13 +1,9 @@
 Para executar a Data App:
 
-1- Baixe o arquivo zip disponível ao final do capítulo.
+1- Abra o terminal ou prompt de comando e navegue até a pasta com os arquivos.
 
-2- Descompacte o arquivo em uma pasta no seu computador.
+2- Execute: pip install -r requirements.txt
 
-3- Abra o terminal ou prompt de comando e navegue até a pasta com os arquivos.
+3- Execute: streamlit run app.py
 
-4- Execute: pip install -r requirements.txt
-
-5- Execute: streamlit run app.py
-
-6- Explorar a Data App!
+4- Explorar a Data App!
