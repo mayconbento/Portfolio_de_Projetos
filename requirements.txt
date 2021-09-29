@@ -6,6 +6,6 @@ numpy
 pystan==2.19.1.1
 plotly
 matplotlib
-fbprophet==0.5
-holidays==0.9.12
+prophet==1.0.1
+holidays==0.11.3
 pandas
