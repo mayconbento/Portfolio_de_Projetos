@@ -5,7 +5,7 @@
 </p>
 
 # Maycon Bento
-<sub>*Analista de Planejamento* -->> Grupo Belarmino</sub>
+<sub>*Analista de Planejamento* -->> xyz </sub>
 
 Profissional com ampla de experiência atuando em empresas de grande porte nos segmentos de eletrodomésticos, borrachas e transporte.
 
