@@ -28,10 +28,8 @@ setwd(dir)
 
 getwd()
 
-# "CAP EMTU"  "CAP FRET"  "RLC"   "WSIDE"    "LIRA"     "RS"      
-
-folha<- read_xlsx('RELATORIO FOLHA AGO21.xlsx', col_names = FALSE, 
-                  sheet = 'CAP FRET')
+folha<- read_xlsx('RELATORIO AGO21.xlsx', col_names = FALSE, 
+                  sheet = 'X1')
 
 
 NOME_DRIVE<- folha[1,1]
@@ -60,7 +58,6 @@ colnames(folha)<- c("EVENTO","DESCRICAO","SINAL","HORAS",
                     "F_ATIVOS","F_FERIAS","TIPO")   
 
 unique(folha$TIPO)
-
 
 padrao<- "^[0-3]{2}\\s[0-9]{2}\\s[0-9]{2}\\s-\\s[A-Z]+"
 
@@ -315,7 +312,6 @@ N_HORAS_NORMAIS<- N_HORAS_NORMAIS[,c(8,2,4)]
 N_HORAS_NORMAIS$DESCRICAO<- 'QTE_HORAS_NORMAIS'
 
 N_HORAS_NORMAIS
-
 
 EVENTOS_EXTRA<- c('3','16','107') 
 
