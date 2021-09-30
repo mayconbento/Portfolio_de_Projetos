@@ -27,12 +27,12 @@ setwd(dir)
 
 getwd()
 
-source('folha_CAP1.R',   encoding = 'UTF8')
-source('folha_CAP7.R',   encoding = 'UTF8')
-source('folha_LR13.R',   encoding = 'UTF8')
-source('folha_RLC16.R',  encoding = 'UTF8')
-source('folha_WS4.R',    encoding = 'UTF8')
-source('folha_RS16.R',   encoding = 'UTF8')
+source('X1.R',   encoding = 'UTF8')
+source('X2.R',   encoding = 'UTF8')
+source('X3.R',   encoding = 'UTF8')
+source('X4.R',   encoding = 'UTF8')
+source('X5.R',   encoding = 'UTF8')
+source('X6.R',   encoding = 'UTF8')
 
 # LIMPAR VARIÁVEIS
 rm(list = ls(all.names = TRUE))
@@ -85,5 +85,5 @@ DRO_WIDER<- DRO_WIDER[, c(1,2,3,9,4,8,7,5,6,10)]
 
 openxlsx::write.xlsx(DRO_WIDER,
                      paste0(letra,
-                            ':/R_STUDIO/Folha/DRO_FOLHA_CONSOLIDADO/DRO_FOLHA_CONSOLIDADO_AGO-2021.xlsx'))
+                            ':/R_STUDIO/Folha/DRO_FOLHA_CONSOLIDADO/DRO_FOLHA_CONSOLIDADO.xlsx'))
 
