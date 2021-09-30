@@ -59,15 +59,15 @@ df<- df[complete.cases(df),]
 
 df_original<- df
 
-df<- df[df$`NOME DA EMPRESA`=='TRANSPORTES CAPELLINI LTDA',]
-#df<- df[df$`NOME DA EMPRESA`=='RAPIDO LUXO CAMPINAS LTDA',]
+df<- df[df$`NOME DA EMPRESA`=='Y1',]
+#df<- df[df$`NOME DA EMPRESA`=='Y2',]
 
-#          df$`NOME DA EMPRESA`=='VIACAO LIRA LTDA',]
+#          df$`NOME DA EMPRESA`=='Y3',]
         
-#df<- df[df$`NOME DA EMPRESA`=='RAPIDO LUXO CAMPINAS LTDA',]
-#df<- df[df$`NOME DA EMPRESA`=='VIACAO LIRA LTDA',]
+#df<- df[df$`NOME DA EMPRESA`=='Y3',]
+#df<- df[df$`NOME DA EMPRESA`=='Y2',]
 
-#df <- subset(df, `NOME DA EMPRESA`== 'TRANSPORTES CAPELLINI LTDA')
+#df <- subset(df, `NOME DA EMPRESA`== 'Y1')
 head(df)
 
 DRIVE<- unique(df$`NOME DA EMPRESA`)
@@ -119,7 +119,7 @@ ggplot(df, mapping = aes(x= ds, y = RECEITA))+
   theme_minimal()+
   geom_point()+
   geom_line()+
-  ggtitle('RECEITA versus Dia BUS+')+
+  ggtitle('RECEITA versus Dia')+
   theme(
     plot.title = element_text(size=17, face="bold", hjust = 0.5))
 
