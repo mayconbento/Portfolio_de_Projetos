@@ -25,13 +25,13 @@ dir<- paste0(letra,':/R_STUDIO/unir_arquivos')
 setwd(dir)
 getwd()
 
-source('limpar_dados_final_excel_resumo_CAP1.R'  ,encoding = 'UTF8')
-source('limpar_dados_final_excel_resumo_RLC16.R' ,encoding = 'UTF8')
-source('limpar_dados_final_excel_resumo_RS16.R'  ,encoding = 'UTF8')
-source('limpar_dados_final_excel_resumo_WS4.R'   ,encoding = 'UTF8')
-source('limpar_dados_final_excel_resumo_LR13.R'  ,encoding = 'UTF8')
-source('limpar_dados_final_excel_resumo_LB11.R'  ,encoding = 'UTF8')
-source('limpar_dados_final_excel_resumo_CAP7.R'  ,encoding = 'UTF8')
+source('limpar_dados_X1.R'  ,encoding = 'UTF8')
+source('limpar_dados_X2.R'  ,encoding = 'UTF8')
+source('limpar_dados_X3.R'  ,encoding = 'UTF8')
+source('limpar_dados_X4.R'  ,encoding = 'UTF8')
+source('limpar_dados_X5.R'  ,encoding = 'UTF8')
+source('limpar_dados_X6.R'  ,encoding = 'UTF8')
+source('limpar_dados_X7.R'  ,encoding = 'UTF8')
 
 # unir arquivos xlsx
 rm(list = ls(all.names = TRUE))
@@ -137,7 +137,7 @@ consolidado_km[is.na(consolidado_km)]<- 0
 
 #openxlsx::write.xlsx(consolidado_km,paste0(letra,':/R_STUDIO/consolidado_km/consolidado_KM.xlsx'))
 
-#********************* unir DRO *************************
+#********************* unir DRE *************************
 #*******************************************************
 # unir arquivos XLSX
 
@@ -156,9 +156,9 @@ library('dplyr')
 file.list <- list.files(pattern='*.xlsx')
 file.list
 
-DRO_consolidado <- bind_rows(lapply(file.list, read_excel))
+DRE_consolidado <- bind_rows(lapply(file.list, read_excel))
 
-linhas<- dim(DRO_consolidado)
+linhas<- dim(DRE_consolidado)
 linhas[1]
 
 #********************** EXTRAIR CUSTO MANUTENÇÃO 01,02,03************
