@@ -27,7 +27,7 @@ Veja os tutoriais publicados:
 * **Introdução ao uso do Algoritmo Prophet com Python **:** https://bit.ly/3Cpc0BE
 * **Mini-Projeto 2 - Data App - Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros **:** app.py --> https://bit.ly/3AUF8k6 
 PDF --> https://bit.ly/3ikCkW5 leia-me.txt --> https://bit.ly/3m7oEid (requirements) --> https://bit.ly/3zPQJiV
-* **Migrando análise de dados do Excel para o Rstudio **:** arquivo 1 https://bit.ly/3tOYKmQ arquivo 2 https://bit.ly/2XEILfr
+* **Migrando análise de dados do Excel para o Rstudio **:** arquivo 1 https://bit.ly/3tOYKm arquivo 2 https://bit.ly/2XEILf
 * **Previsão de Cancelamento de serviço no Banco Santander **:** https://bit.ly/3lqxZ4g
-* **Carga, análise e relatórios do R para Excel, createWorkbook() **:** https://bit.ly/3nHZfy4
+* **Carga, análise e relatórios do R para Excel, createWorkbook() **:** https://bit.ly/3nHZfy
 
