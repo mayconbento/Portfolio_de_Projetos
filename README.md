@@ -27,7 +27,7 @@ Veja os tutoriais publicados:
 * **Introdução ao uso do Algoritmo Prophet com Python **:** https://bit.ly/3Cpc0BE
 * **Mini-Projeto 2 - Data App - Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros **:** app.py --> https://bit.ly/3AUF8k6 
 PDF --> https://bit.ly/3ikCkW5 leia-me.txt --> https://bit.ly/3m7oEid (requirements) --> https://bit.ly/3zPQJiV
-* **Usando Regressão linear para fazer previsões **:** https://bit.ly/2XEILf
+* **Usando Regressão linear para fazer previsões **:** https://bit.ly/2WASkLW
 * **Previsão de Cancelamento de serviço no Banco Santander **:** https://bit.ly/3lqxZ4g
 * **Carga, análise e relatórios do R para Excel, createWorkbook() **:** https://bit.ly/2Y7ToHD
 
