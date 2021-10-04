@@ -82,9 +82,9 @@ str(df)
 # AGRUPAMENTO GROUP-BY
 df<- df %>%
   group_by(ds) %>%
-  summarise(`TOTAL PASS` =sum(`TOTAL`),
-            RECEITA = sum(VALOR),
-            `TOTAL ECON` = sum(`EC`))
+  summarise(`TOTAL` =sum(`TOTAL`),
+            VALOR = sum(VALOR),
+            `EC` = sum(`EC`))
 
 
 head(df)
