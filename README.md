@@ -18,7 +18,7 @@ Experiência na construção e manutenção de orçamento (budget).
 **Background in:** R, Python, Minitab, Excel, Power Query, Power Bi, Machine Learning, Dataviz.
 
 **Links:**
-* [LinkedIn](https://www.linkedin.com/in/maycon-bento-04116b180/)
+* [LinkedIn](https://https://www.linkedin.com/in/mayconbento)
 
 ## Projetos:
 Veja os tutoriais publicados:
