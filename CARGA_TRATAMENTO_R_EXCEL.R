@@ -1,3 +1,4 @@
+# Minha versão do RStudio
 # R version 3.6.2 (2019-12-12) -- "Dark and Stormy Night"
 
 # Bilbliotecas
