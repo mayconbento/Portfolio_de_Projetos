@@ -1,4 +1,4 @@
-K[![author](https://img.shields.io/badge/author-mayconbento-red.svg)](https://www.linkedin.com/in/mayconbento/) [![](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/bento/data_science/issues)
+[![author](https://img.shields.io/badge/author-mayconbento-red.svg)](https://www.linkedin.com/in/mayconbento/) [![](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-365/) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/bento/data_science/issues)
 
 <p align="center">
   <img src="banner.png" >
@@ -36,5 +36,5 @@ https://bit.ly/2WASkLW
 https://bit.ly/2YrY5MO
 5. Carga, análise e relatórios do R para Excel, createWorkbook():
 https://bit.ly/2Y7ToHD
-6. Meu primeiro projeto Django "versionado":
+6. Meu primeiro projeto Django "versionado":     
 https://bit.ly/3GVQCqI
