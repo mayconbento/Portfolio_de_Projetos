@@ -32,7 +32,7 @@ https://bit.ly/2WCKlxX
    * (requirements): https://bit.ly/3zPQJiV
 3. Usando Regressão linear para fazer previsões: 
 https://bit.ly/2WASkLW
-4. Previsão de Cancelamento de serviço no Banco Santander:   
+4. Previsão de Cancelamento de serviço no Banco Santander:          
 https://bit.ly/2YrY5MO
 5. Carga, análise e relatórios do R para Excel, createWorkbook():
 https://bit.ly/2Y7ToHD
