@@ -41,3 +41,6 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 8. Inadimplencia de Clientes resolução com RStudio:    
    * Arquivo Markdown https://bit.ly/3qeOZPh
    * Zip Files https://bit.ly/3mT2hia
+
+9. Automatização de cálculos para reports de folha de pagamento.
+
