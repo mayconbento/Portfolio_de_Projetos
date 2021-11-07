@@ -29,5 +29,5 @@ PDF --> https://bit.ly/3ikCkW5 leia-me.txt --> https://bit.ly/3m7oEid (requireme
 1. Usando Regressão linear para fazer previsões **:** https://bit.ly/2WASkLW
 1.Previsão de Cancelamento de serviço no Banco Santander **:** https://bit.ly/2YrY5MO
 1. Carga, análise e relatórios do R para Excel, createWorkbook() **:** https://bit.ly/2Y7ToHD
-1. Meu primeiro projeto Django **:** https://bit.ly/3GVQCqI
+1. Meu primeiro projeto Django "versionado": https://bit.ly/3GVQCqI
 
