@@ -43,5 +43,5 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
    * Zip Files https://bit.ly/3mT2hia
 
 9. Automatização de cálculos para reports de folha de pagamento.
-   <p>*under construction*</p>
+   <p>***under*** ***construction***</p>
 
