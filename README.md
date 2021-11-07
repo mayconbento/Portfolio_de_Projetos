@@ -15,13 +15,12 @@ Experiência na criação e monitoramento de indicadores de desempenho (KPI´S).
 
 Experiência na construção e manutenção de orçamento (budget).
 
-**Background in:** R, Python, Minitab, Excel, Power Query, Power Bi, Machine Learning, Dataviz.
+Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machine Learning, Dataviz.
 
 **Links:**
 * [LinkedIn](https://www.linkedin.com/in/mayconbento/)
 
-## Projetos:
-Veja os tutoriais publicados:
+## **Meu Portolio de Projetos:**
 
 1. Introdução ao uso do Algoritmo Prophet com Rstudio **:** https://bit.ly/2WCKlxX
 1. Introdução ao uso do Algoritmo Prophet com Python **:** https://bit.ly/3Cpc0BE
