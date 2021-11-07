@@ -32,12 +32,12 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
   
 4. Usando Regressão linear para fazer previsões:                  https://bit.ly/2WASkLW
 
-4. Previsão de Cancelamento de serviço no Banco Santander:        https://bit.ly/2YrY5MO
+5. Previsão de Cancelamento de serviço no Banco Santander:        https://bit.ly/2YrY5MO
 
-5. Carga, análise e relatórios do R para Excel, createWorkbook(): https://bit.ly/2Y7ToHD
+6. Carga, análise e relatórios do R para Excel, createWorkbook(): https://bit.ly/2Y7ToHD
 
-6. Meu primeiro projeto Django "versionado":                      https://bit.ly/3GVQCqI
+7. Meu primeiro projeto Django "versionado":                      https://bit.ly/3GVQCqI
 
-7. Inadimplencia de Clientes resolução com RStudio:    
+8. Inadimplencia de Clientes resolução com RStudio:    
    * Arquivo Markdown https://bit.ly/3qeOZPh
    * Zip Files https://bit.ly/3mT2hia
