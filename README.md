@@ -5,7 +5,7 @@
 </p>
 
 # Maycon Bento
-### *Analista de Planejamento*       <p>:point_right:<sub>[Clique aqui para Linkedin](https://www.linkedin.com/in/mayconbento/)</sub></p>
+### *Analista de Planejamento*       <p>:point_right:<sub>[Clique aqui para ver meu *Linkedin*](https://www.linkedin.com/in/mayconbento/)</sub></p>
 
 Profissional com ampla de experiência atuando em empresas de grande porte nos segmentos de eletrodomésticos, borrachas e transporte.
 
