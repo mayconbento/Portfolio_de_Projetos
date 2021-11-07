@@ -5,7 +5,7 @@
 </p>
 
 # Maycon Bento
-### *Analista de Planejamento*
+### *Analista de Planejamento*       [Clique aqui para ver meu Perfil no Linkedin](https://www.linkedin.com/in/mayconbento/)
 
 Profissional com ampla de experiência atuando em empresas de grande porte nos segmentos de eletrodomésticos, borrachas e transporte.
 
@@ -17,8 +17,6 @@ Experiência na construção e manutenção de orçamento (budget) e reports de 
 
 Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machine Learning, Dataviz.
 
-**Links:**
-* [LinkedIn](https://www.linkedin.com/in/mayconbento/)
 
 ## **Meu Portfolio de Projetos:**
 
