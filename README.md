@@ -22,7 +22,7 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 
 ## **Meu Portfolio de Projetos:**
 
-1. Introdução ao uso do Algoritmo Prophet com Rstudio:
+1. Introdução ao uso do Algoritmo Prophet com Rstudio:   
 https://bit.ly/2WCKlxX
 1. Introdução ao uso do Algoritmo Prophet com Python **:** https://bit.ly/3Cpc0BE
 1. Mini-Projeto - Data App - Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros:
@@ -30,9 +30,9 @@ https://bit.ly/2WCKlxX
    * PDF: https://bit.ly/3ikCkW5 
    * leia-me.txt: https://bit.ly/3m7oEid 
    * (requirements): https://bit.ly/3zPQJiV
-3. Usando Regressão linear para fazer previsões:
+3. Usando Regressão linear para fazer previsões: 
 https://bit.ly/2WASkLW
-4. Previsão de Cancelamento de serviço no Banco Santander:
+4. Previsão de Cancelamento de serviço no Banco Santander:   
 https://bit.ly/2YrY5MO
 5. Carga, análise e relatórios do R para Excel, createWorkbook():
 https://bit.ly/2Y7ToHD
