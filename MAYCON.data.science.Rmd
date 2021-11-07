@@ -1,0 +1,259 @@
+---
+title: "Case Data Science"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+  word_document: default
+editor_options:
+  chunk_output_type: inline
+---
+
+Este é o notebook da tarefa para uma candidatura em Data Science, onde tenho que implementar um modelo para prever se o cliente é inadimplente ou não.
+
+Examinando o dataset foi percebido dados missings e classes desbalanceadas.
+
+Para o treinamento seré feito pre-processamento de dados.
+
+Será implementado o modelo de classificação GBM e avaliado através de Confusion Matrix
+
+
+## Bibliotecas que serão utilizadas
+```{r message=FALSE, warning=FALSE}
+library('readxl')
+library('ggplot2')
+library('openxlsx')
+library('magrittr')
+library('dplyr')
+library('stringr')
+library('openxlsx')
+library('tidyr')
+library('purrr')
+library("car") # scatter plot
+library('caret')
+library('ROSE')
+library('randomForest')
+library('e1071')
+library('xgboost')
+library('gbm')
+library('plotly')
+library('mice')
+library('VIM')
+```
+
+
+## Diretório de trabalho
+```{r}
+getwd()
+```
+
+## Ler os dados disponíveis
+```{r}
+
+train_set<- read.csv(file = 'treino.csv')
+
+colnames(train_set)<- c('target','feature1','idade', 'feature3',
+                        'feature4','salario', 'feature6','feature7',
+                        'feature8','feature9','dependentes')
+
+dim(train_set)
+```
+
+## Novos dados que devem ser preditos com o modelo (sem target column)
+```{r}
+
+test_set<- read.csv(file = 'teste.csv')
+
+colnames(test_set)<- c('feature1','idade', 'feature3',
+                       'feature4','salario', 'feature6','feature7',
+                       'feature8','feature9','dependentes')
+
+dim(test_set)
+print(head(test_set))
+```
+
+
+## Visualizar dados Missing (MICE)
+```{r}
+mice_plot <- aggr(train_set, col=c('navyblue','yellow'),
+                  numbers=TRUE, sortVars=TRUE,
+                  labels=names(train_set), cex.axis=.7,
+                  gap=3, ylab=c("Missing data","Pattern"))
+```
+Pode se utilizar esta biblioteca para fazer (imputation de dados missing). 
+Existem outras bibliotecas para este fim.
+
+## Contagem de dados missing
+```{r}
+sapply(train_set, function(x)sum(is.na(x)))
+```
+
+## Estatística básica
+```{r warning=FALSE}
+summary(train_set)
+```
+
+## Análise exploratória
+```{r message=FALSE, warning=FALSE}
+attach(train_set)
+par(mfrow=c(2,1))
+boxplot(idade, horizontal = TRUE,    xlab="Idade", main = 'Idade')
+boxplot(salario, horizontal = TRUE, xlab="Salário", main = 'Salário')
+```
+
+Percebemos muitos outliers, que podem ser eliminados aplicando diversas técnicas, por exemplo Q3 + (IQR)*1,5
+
+
+## Eliminar outliers
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+attach(train_set)
+train_set<- filter(train_set, salario<13000)
+train_set<- train_set[train_set$idade>=20 & train_set$idade<87,]
+```
+
+
+## Verificando novamente outliers
+```{r}
+par(mfrow=c(2,1))
+boxplot(train_set$idade, horizontal = TRUE,    xlab="Idade", main = 'Idade')
+boxplot(train_set$salario, horizontal = TRUE, xlab="Salário", main = 'Salário')
+```
+
+# dataset desbalanceado
+```{r}
+barplot(prop.table(table(train_set$target)),
+        col = rainbow(2),
+        ylim = c(0, 0.95),
+        main = "Class Distribution")
+
+prop.table(table(train_set$target))
+table(train_set$target)
+```
+
+# Balancear o dataset
+```{r}
+over <- ovun.sample(target~., data = train_set, 
+                    method = "both", N = 5771)$data
+
+table(over$target)
+prop.table(table(over$target))
+train_set<- over
+```
+## Funcao do Caret para divisao dos dados
+```{r}
+# ?createDataPartition
+split <- createDataPartition(y = train_set$target, 
+                             p = 0.7, list = FALSE)
+
+dados_treino <- train_set[split,]
+dados_teste <- train_set[-split,]
+
+barplot(prop.table(table(dados_treino$target)),
+        col = rainbow(2),
+        ylim = c(0, 0.95),
+        main = "Class Distribution")
+
+prop.table(table(dados_treino$target))
+table(train_set$target)
+```
+
+# construção de modelo com caret
+```{r}
+# dados
+head(dados_treino)
+
+# construindo o modelo com dados balanceados
+dados_treino$target<- as.factor(dados_treino$target)
+dados_teste$target<- as.factor(dados_teste$target)
+
+# cross validation
+fitControl <- trainControl(## 10-fold CV
+  method = "repeatedcv",
+  number = 10,
+  ## repeated ten times
+  repeats = 10)
+
+# tuning parameters (**não tenho recurso computacional**)
+gbmGrid <-  expand.grid(interaction.depth = c(1, 5, 9), 
+                        n.trees = (30:50), 
+                        shrinkage = 0.1,
+                        n.minobsinnode = 15:20)
+```
+
+
+## Algoritmo Stochastic Gradient Boosting 
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+model <- train(preProcess= c("center", "scale") , 
+                   target~.,
+                   data = dados_treino, method = 'gbm', 
+                   trControl = fitControl,
+                   #tuneGrid= gbmGrid,
+                   metric = 'Accuracy')
+
+```
+
+
+```{r}
+varImp(model)
+model$finalModel
+```
+
+
+```{r}
+confusionMatrix(predict(model, newdata = dados_teste), 
+                dados_teste$target, positive = '1')
+```
+Podemos verificar pela confusion Matrix que conseguimos detectar 
+acima de 75%  classe "1"  = Sensitivity
+acima de 75%  classe "0"  = Specificity 
+
+```{r}
+preds<- predict(model, dados_teste)
+preds<- data.frame(predictions = preds, 
+                   labels = dados_teste$target)
+
+library('precrec')
+roc.curve(preds$predictions,preds$labels)
+```
+# Fazendo previsões para dados novos
+# Prever se o cliente é inadimplente ou não
+```{r warning=FALSE}
+# count number of NAs
+sapply(test_set, function(x)sum(is.na(x)))
+
+library(mice)
+
+test_set_imp<- test_set
+
+library(VIM)
+
+mice_plot <- aggr(test_set, col=c('navyblue','yellow'),
+                    numbers=TRUE, sortVars=TRUE,
+                    labels=names(test_set), cex.axis=.7,
+                    gap=3, ylab=c("Missing data - dados novos","Pattern"))
+
+
+imputed_Data_new <- mice(test_set, m=5, maxit = 50, 
+                     method = 'pmm', seed = 500)
+
+summary(imputed_Data_new)
+
+
+#get complete data ( 2nd out of 5)
+completeData_new <- complete(imputed_Data_new,2)
+
+test_set_new<- completeData_new
+
+
+# calculando novas previsões
+novas_previsoes<- data.frame(novas_previsoes = predict(model, 
+                                     newdata = test_set_new))
+
+dim(novas_previsoes)
+
+
+novas_previsoes<- bind_cols(test_set_new, novas_previsoes)
+write.xlsx(novas_previsoes, 'novas_previsoes.xlsx')
+```
+
+                          *Fim*
