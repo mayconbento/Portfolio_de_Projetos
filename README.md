@@ -40,6 +40,6 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 
 6. Meu primeiro projeto Django "versionado":                     https://bit.ly/3GVQCqI
 
-7. Inadimplencia de Clientes resolução com RStudio:              
+7. Inadimplencia de Clientes resolução com RStudio:             
    * Arquivo Markdown https://bit.ly/3qeOZPh
    * Zip Files https://bit.ly/3mT2hia
