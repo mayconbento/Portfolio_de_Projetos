@@ -13,7 +13,7 @@ Carreira desenvolvida nas áreas de qualidade, processos e melhoria contínua, c
 
 Experiência na criação e monitoramento de indicadores de desempenho (KPI´S).
 
-Experiência na construção e manutenção de orçamento (budget).
+Experiência na construção e manutenção de orçamento (budget) e reports de resultados.
 
 Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machine Learning, Dataviz.
 
