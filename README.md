@@ -20,9 +20,9 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 
 ## **Meu Portfolio de Projetos:**
 
-1. Previsão de séries temporais com Prophet e Rstudio:            https://bit.ly/2WCKlxX
+1. Previsão de séries temporais com Prophet e Rstudio:             https://bit.ly/2WCKlxX
 
-2. Previsão de séries temporais com Prophet e Python:             https://bit.ly/3Cpc0BE
+2. Previsão de séries temporais com Prophet e Python:              https://bit.ly/3Cpc0BE
 
 3. Mini-Projeto - Data App - Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros:    Curso ***Data Science Academy***
    * app.py: https://bit.ly/3AUF8k6
@@ -30,13 +30,13 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
    * leia-me.txt: https://bit.ly/3m7oEid 
    * (requirements): https://bit.ly/3zPQJiV
   
-4. Usando Regressão linear para fazer previsões:                 https://bit.ly/2WASkLW
+4. Usando Regressão linear para fazer previsões:                  https://bit.ly/2WASkLW
 
-4. Previsão de Cancelamento de serviço no Banco Santander:       https://bit.ly/2YrY5MO
+4. Previsão de Cancelamento de serviço no Banco Santander:        https://bit.ly/2YrY5MO
 
-5. Carga, análise e relatórios do R para Excel, createWorkbook():https://bit.ly/2Y7ToHD
+5. Carga, análise e relatórios do R para Excel, createWorkbook(): https://bit.ly/2Y7ToHD
 
-6. Meu primeiro projeto Django "versionado":                     https://bit.ly/3GVQCqI
+6. Meu primeiro projeto Django "versionado":                      https://bit.ly/3GVQCqI
 
 7. Inadimplencia de Clientes resolução com RStudio:    
    * Arquivo Markdown https://bit.ly/3qeOZPh
