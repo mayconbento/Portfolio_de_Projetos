@@ -25,7 +25,7 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 1. Introdução ao uso do Algoritmo Prophet com Rstudio:   
 https://bit.ly/2WCKlxX
 1. Introdução ao uso do Algoritmo Prophet com Python **:** https://bit.ly/3Cpc0BE
-1. Mini-Projeto - Data App - Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros:
+1. Mini-Projeto - Data App - Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros:    Curso ***Data Science Academy***
    * app.py: https://bit.ly/3AUF8k6
    * PDF: https://bit.ly/3ikCkW5 
    * leia-me.txt: https://bit.ly/3m7oEid 
