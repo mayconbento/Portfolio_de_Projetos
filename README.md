@@ -20,7 +20,7 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 
 ## **Meu Portfolio de Projetos:**
 
-1. Previsão de séries temporais com Prophet e Rstudio:             https://bit.ly/2WCKlxX
+1. Previsão de séries temporais com Prophet e Rstudio:             https://bit.ly/3o9YWuu
 
 2. Previsão de séries temporais com Prophet e Python:              https://bit.ly/3obbbap
 
