@@ -22,13 +22,13 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 
 1. Previsão de séries temporais com Prophet e Rstudio:             https://bit.ly/2WCKlxX
 
-2. Previsão de séries temporais com Prophet e Python:              https://bit.ly/3Cpc0BE
+2. Previsão de séries temporais com Prophet e Python:              https://bit.ly/3obbbap
 
 3. Mini-Projeto - Data App - Dashboard Financeiro Interativo e em Tempo Real Para Previsão de Ativos Financeiros:    Curso ***Data Science Academy***
-   * app.py: https://bit.ly/3AUF8k6
-   * PDF: https://bit.ly/3ikCkW5 
-   * leia-me.txt: https://bit.ly/3m7oEid 
-   * (requirements): https://bit.ly/3zPQJiV
+   * app.py: https://bit.ly/3GZT8fW
+   * PDF: https://bit.ly/3CXMNyZ 
+   * leia-me.txt: https://bit.ly/3keVJsD 
+   * (requirements): https://bit.ly/3H2UPsM
   
 4. Usando Regressão linear para fazer previsões:                  https://bit.ly/2WASkLW
 
