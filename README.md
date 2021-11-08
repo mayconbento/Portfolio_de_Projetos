@@ -36,7 +36,7 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 
 6. Carga, análise e relatórios do R para Excel, createWorkbook(): https://bit.ly/2Y7ToHD
 
-7. Meu primeiro projeto Django "versionado":                      https://bit.ly/3GVQCqI
+7. Meu primeiro projeto Django "versionado" "curso Udemy"         https://bit.ly/3GVQCqI
 
 8. Inadimplencia de Clientes resolução com RStudio:    
    * Arquivo Markdown https://bit.ly/3qeOZPh
