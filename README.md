@@ -45,6 +45,6 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
 9. Automatização de relatórios gerenciais utilizando programação. 
    <sub><p>:new:*under construction*</p></sub>
 
-10. Dashboard para visualização de horas extras. 
+10. Dashboard para visualização de horas trabalhadas. 
    <sub><p>:new:*under construction*</p></sub>
 
