@@ -30,11 +30,11 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
    * leia-me.txt: https://bit.ly/3keVJsD 
    * (requirements): https://bit.ly/3H2UPsM
   
-4. Usando Regressão linear para fazer previsões:                  https://bit.ly/2WASkLW
+4. Usando Regressão linear para fazer previsões:                  https://bit.ly/305SZH3
 
-5. Previsão de Cancelamento de serviço no Banco Santander:        https://bit.ly/2YrY5MO
+5. Previsão de Cancelamento de serviço no Banco Santander:        https://bit.ly/3oaSIdZ
 
-6. Carga, análise e relatórios do R para Excel, createWorkbook(): https://bit.ly/2Y7ToHD
+6. Carga, análise e relatórios do R para Excel, createWorkbook(): https://bit.ly/3o4K94d
 
 7. Meu primeiro projeto Django "versionado" "curso Udemy"         https://bit.ly/3GVQCqI
 
