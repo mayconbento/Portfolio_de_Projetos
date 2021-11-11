@@ -42,7 +42,7 @@ Background in: __RStudio__, Python, Minitab, Excel, Power Query, Power Bi, Machi
    * Arquivo Markdown https://bit.ly/3qeOZPh
    * Zip Files https://bit.ly/3mT2hia
 
-9. Analise de Churn com pycaret:                                  https://bit.ly/3oaSIdZ
+9. Analise de Churn com pycaret:                                  https://bit.ly/3qqMBF7
 
 10 Automatização de relatórios gerenciais utilizando programação. 
    <sub><p>:new:*under construction*</p></sub>
